@@ -1,0 +1,244 @@
+---
+title: "using the spotify api"
+author: "Paul Bradshaw"
+date: "3 April 2017"
+output: html_document
+---
+
+# Using the Spotify API
+
+To grab information on different artists and groups, we're using the [Spotify API](https://developer.spotify.com/web-api/).
+
+The Spotify API has data on artists, tracks and albums, among other things. To know what information it has, [check the 'endpoint reference'](https://developer.spotify.com/web-api/endpoint-reference/). 
+
+An 'endpoint' is basically a question that you can ask an API. For example the 'albums' endpoint allows you to ask questions about a particular album. 
+
+To use the API we need to supply the ID of the artist, track or album that we are asking about. So to grab the [top tracks for a particular artist](https://developer.spotify.com/web-api/get-artist/) the URL will look like this:
+
+`https://api.spotify.com/v1/artists/43ZHCT0cAZBISjO8DG9PnE/top-tracks?country=SE`
+
+The artist code comes after `artists/` but you also need to specify a country code after the `?`. So to get the most popular tracks for an artist in the UK, you would add `country=GB`
+
+It publishes that data in [JSON format](http://www.w3schools.com/json/). This uses curly brackets, colons and commas to structure the data.
+
+**NOTE: In May 2017 Spotify changed their API so that you need an access token (key) to make these requests. An [extra tutorial explaining how to do this is written here](https://github.com/paulbradshaw/Rintro/blob/master/rAPI/spotifyapikey.md)**
+
+## Breaking down the problem
+
+Let's break down our project into some concrete tasks. First, take stock of what we have already: a CSV file containing our artists and their ID codes. We need to:
+
+* Bring the CSV file into R as a data table
+* Put each ID code in a list
+* For each ID code, convert to a Spotify API URL that has data on that artist's top tracks
+* Extract the name of the top tracks, and the popularity
+* Store that in a new table alongside the ID of the artist
+
+## Bring in CSV and put each ID code from the CSV in a list
+
+We can pull the CSV into R and store like so. Then grab the column we need and put in a new object:
+
+```{r}
+spotifyids <- read.csv('spotifyids_testlist.csv')
+#The column is called Spotify ID
+idlist <- spotifyids$Spotify.ID
+```
+
+This actually creates a factor, which we can loop through...
+
+## Convert into a list of URLs
+
+We're going to need to perform a repetitive action here: for each ID code, add the start and end of the API URL for that ID. That can be done with a `for` loop like so:
+
+```{r}
+#for now this just prints the results, but we will change it to do something later
+for (id in ids) 
+  print(
+    paste("https://api.spotify.com/v1/artists/",id,"/top-tracks?country=GB", sep="")
+    )
+```
+
+The `for` loop runs through all the items in `ids` and calls each item `id` and does something with it.
+
+What it does is use the `paste` function to concatenate three different parts of the URL: the start (a string), the id code, and the end (another string). We also specify that there is no separator (`sep=""`) because otherwise it will insert a space between the three items by default.
+
+The result of that `paste` function is printed.
+
+Because we expect to use this more than once, it's a good idea to store it all in a function like so, which we store as `formurls`:
+
+```{r}
+formurls <- function (ids) {
+  for (id in ids) 
+    #change print later
+    print(
+    paste("https://api.spotify.com/v1/artists/",id,"/top-tracks?country=GB", sep="")
+    )
+  }
+```
+
+
+## Working with the JSON
+
+Now we need to do something with those URLs to extract the JSON. Some context first...
+
+To convert JSON data into a data variable that R can work with, we use the `jsonlite` library ([documentation here](https://cran.r-project.org/web/packages/jsonlite/jsonlite.pdf)). This should already be installed in RStudio (if not, type `install.packages('jsonlite')`), so you just need to activate it.
+
+```{r}
+library('jsonlite')
+```
+
+Once added to your library, we use the `fromJSON` function to import JSON data from a URL into a new variable like so:
+
+```{r}
+jsoneg <- fromJSON("https://api.spotify.com/v1/artists/11wRdbnoYqRddKBrpHt4Ue/top-tracks?country=GB")
+```
+
+It's a good idea to have the URL open in a browser at the same time so you can see the structure and work out how to access the bit you're after. You should use Chrome or Firefox with the extension [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en) installed, as this makes it a lot easier to understand.
+
+If we want the names of each track in that object, we need to specify the path like so:
+
+```{r}
+jsoneg[['tracks']][['name']]
+```
+
+In this case, the JSON has a branch called 'tracks' with 10 items in it; and within each of those items, a branch called 'name'. To get the popularity of each track you need:
+
+```{r}
+jsoneg[['tracks']][['popularity']]
+```
+
+As we have 10 results each time you can also specify which of those ten to grab, like so:
+
+```{r}
+jsoneg[['tracks']][['name']][1]
+```
+
+R uses a 1-based index, which means that 1 refers to the first item (or 'index position 1'). 
+
+## Looping through the API results to form the data
+
+Let's now adapt our function to not just print the results, but store them and return them somehow:
+
+```{r}
+returnurllist <- function (ids) {
+  idurl_list = c()
+  for (id in ids) {
+    #change print later
+    idurl <- paste("https://api.spotify.com/v1/artists/",id,"/top-tracks?country=GB", sep="")
+    print(idurl)
+    idurl_list = c(idurl_list, idurl)
+    }
+  return(idurl_list)
+  }
+```
+
+This can then be used on our list of ID codes to create a list of ID URLs:
+
+```{r}
+idurllist <- returnurllist(idlist)
+```
+
+Now to expand this to grab information *from* each URL:
+
+```{r}
+grabtoptracks <- function (ids) {
+  toptracks = c()
+  for (id in ids) {
+    #change print later
+    idurl <- paste("https://api.spotify.com/v1/artists/",id,"/top-tracks?country=GB", sep="")
+    idjson <- fromJSON(idurl)
+    toptrack <- idjson[['tracks']][['name']][1]
+    print(toptrack)
+    toptracks = c(toptracks, toptrack)
+  }
+  print(toptracks)
+  return(toptracks)
+}
+```
+
+...And run it with the list of ID codes:
+
+```{r}
+toptracks <- grabtoptracks(idlist)
+```
+
+
+This can be combined with the ID vector to create a table:
+
+```{r}
+toptracksbyartist <- data.frame(idlist,grabtoptracks(idlist))
+```
+
+We might want to do that within the function itself:
+
+```{r}
+grabtoptracks_and_id <- function (ids) {
+  toptracks = c()
+  for (id in ids) {
+    #change print later
+    idurl <- paste("https://api.spotify.com/v1/artists/",id,"/top-tracks?country=GB", sep="")
+    idjson <- fromJSON(idurl)
+    toptrack <- idjson[['tracks']][['name']][1]
+    print(toptrack)
+    toptracks = c(toptracks, toptrack)
+  }
+  print(toptracks)
+  resultstable <- data.frame(toptracks, ids)
+  return(resultstable)
+}
+```
+
+But instead let's keep these separate as we might want to run them separately too.
+
+```{r}
+grabtoptrackpopularity <- function (ids) {
+  toptracks = c()
+  for (id in ids) {
+    #change print later
+    idurl <- paste("https://api.spotify.com/v1/artists/",id,"/top-tracks?country=GB", sep="")
+    idjson <- fromJSON(idurl)
+    toptrack <- idjson[['tracks']][['popularity']][1]
+    print(toptrack)
+    toptracks = c(toptracks, toptrack)
+  }
+  print(toptracks)
+  return(toptracks)
+}
+```
+
+To save the results of both functions alongside the IDs:
+
+```{r}
+toptracksbyartist <- data.frame(idlist,grabtoptracks(idlist),grabtoptrackpopularity(idlist))
+```
+
+To grab the album name we have to dig deeper:
+
+```{r}
+grabtoptrackalbum <- function (ids) {
+  toptrackalbums = c()
+  for (id in ids) {
+    #change print later
+    idurl <- paste("https://api.spotify.com/v1/artists/",id,"/top-tracks?country=GB", sep="")
+    idjson <- fromJSON(idurl)
+    toptrackalbum <- idjson[['tracks']][['album']][['name']][1]
+    print(toptrackalbum)
+    toptrackalbums = c(toptrackalbums, toptrackalbum)
+  }
+  print(toptrackalbums)
+  return(toptrackalbums)
+}
+```
+
+And add that to the table
+
+```{r}
+toptracksbyartist <- data.frame(idlist,grabtoptracks(idlist),grabtoptrackpopularity(idlist),grabtoptrackalbum(idlist))
+```
+
+## Problems?
+
+If the process above doesn't work it may be that the data is actually in the ['JSON Lines' format](http://jsonlines.org/). [Try the solutions outlined here](https://stackoverflow.com/questions/24514284/how-do-i-import-data-from-json-format-into-r-using-jsonlite-package).
+
+There are also other libraries for handling JSON such as rjson and RJSONIO, [compared with jsonlite here](https://rstudio-pubs-static.s3.amazonaws.com/31702_9c22e3d1a0c44968a4a1f9656f1800ab.html)
+
+You can also use this library to [export data in JSON format too](https://cran.r-project.org/web/packages/jsonlite/vignettes/json-aaquickstart.html): useful if you want to use the data in a JavaScript-based interactive.

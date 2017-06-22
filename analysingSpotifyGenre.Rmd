@@ -1,0 +1,83 @@
+---
+title: "analysing spotify data"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Grabbing the data
+
+The data has already been scraped from the API using a Python script in Quickcode.io.The data can be queried using SQL with results provided in JSON. The URL for the result of `select * from swdata` (select all data) is [https://premium.scraperwiki.com/1c6u0ci/n4n1dvnblw9ieyh/sql/?q=select%20*%0Afrom%20swdata%0A](https://premium.scraperwiki.com/1c6u0ci/n4n1dvnblw9ieyh/sql/?q=select%20*%0Afrom%20swdata%0A).
+
+To grab that we first need the `jsonlite` package. Then we can use the `fromJSON` command to grab it and put it in an object
+
+```{r}
+library("jsonlite")
+spotifydata <- fromJSON("https://premium.scraperwiki.com/1c6u0ci/n4n1dvnblw9ieyh/sql/?q=select%20*%0Afrom%20swdata%0A")
+```
+
+## Exporting genres as CSV
+
+To analyse the genres, I'm following the steps outlined in a [blog post by John Victor Anderson](http://johnvictoranderson.org/?p=115). 
+
+First, we need to export the column of keywords:
+
+```{r}
+write(spotifydata$genres, 'genresastext.txt')
+```
+
+Now we re-import that data as a character object using `scan`:
+
+```{r}
+genres <- scan('genresastext.txt', what="char", sep=",")
+# We convert all text to lower case to prevent any case sensitive issues with counting
+genres <- tolower(genres)
+```
+
+We now need to put this through a series of conversions before we can generate a table:
+
+```{r}
+#create a list object by splitting 'genres' on comma
+genres.split <- strsplit(genres, ",")
+#create a vector object from that
+genresvec <- unlist(genres.split)
+#create a table from the vector
+genrestable <- table(genresvec)
+```
+
+That table is enough to create a CSV from:
+
+```{r}
+write.csv(genrestable, 'genrecount.csv')
+```
+
+## Repeating but with appearances factored in
+
+The above process gives us the most popular genre by artists. But if we want to reflect the popularity of genres at festivals, we need to factor in the fact that some artists have appeared more than once (are more popular).
+
+To do this we've taken the list of appearances in Excel and used VLOOKUP to match those with genres, correcting for misspellings and other inconsistencies along the way. The resulting CSV file is then re-imported for our analysis:
+
+```{r}
+spotifydata2 <- read.csv("spotifygenres_x_appearances.csv")
+```
+
+Then we follow the same steps as above, but with that as the basis:
+
+```{r}
+#For some reason this time the write command generates a list of numbers, whereas write.csv doesn't, so we'll use that and ignore the indexes that write.csv creates
+write.csv(spotifydata2$genres.on.Spotify, 'genresastext2.txt')
+genres2 <- scan('genresastext2.txt', what="char", sep=",")
+# We convert all text to lower case to prevent any case sensitive issues with counting
+genres2 <- tolower(genres2)
+#create a list object by splitting 'genres' on comma
+genres.split2 <- strsplit(genres2, ",")
+#create a vector object from that
+genresvec2 <- unlist(genres.split2)
+#create a table from the vector
+genrestable2 <- table(genresvec2)
+write.csv(genrestable2, 'genrecount_x_appearances.csv')
+```
+
+

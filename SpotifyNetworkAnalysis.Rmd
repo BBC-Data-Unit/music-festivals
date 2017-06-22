@@ -1,0 +1,135 @@
+---
+title: "analysing spotify data"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Grabbing the data
+
+The data has already been scraped from the API using a Python script in Quickcode.io.The data can be queried using SQL with results provided in JSON. The URL for the result of `select * from swdata` (select all data) is [https://premium.scraperwiki.com/1c6u0ci/n4n1dvnblw9ieyh/sql/?q=select%20*%0Afrom%20swdata%0A](https://premium.scraperwiki.com/1c6u0ci/n4n1dvnblw9ieyh/sql/?q=select%20*%0Afrom%20swdata%0A).
+
+To grab that we first need the `jsonlite` package. Then we can use the `fromJSON` command to grab it and put it in an object
+
+```{r}
+library("jsonlite")
+spotifydata <- fromJSON("https://premium.scraperwiki.com/1c6u0ci/n4n1dvnblw9ieyh/sql/?q=select%20*%0Afrom%20swdata%0A")
+```
+
+## Turn artist-as-row into relationship-as-row
+
+To create a network analysis you need a row for every *relationship*. Because each artist has around 10 related artists, that means 10 relationships (rows) for each artist, not just one.
+
+So we need a new data frame. You create a data frame in R by combining vectors of the same length. So we need one vector for the festival artist, and one vector for each of the related artists that correspond to it.
+
+Let's grab those related artists, then, and put them in a new item:
+
+```{r}
+relateds <- strsplit(spotifydata$relatedartists, ',')
+```
+
+This will separate each cell by column (so each related artist is stored as a separate item), and then store each collection of artists (a vector) in a list.
+
+```{r}
+#Grab the first item in the list, which is a vector
+relateds[[1]]
+```
+
+You can dig deeper into a list by adding another index:
+
+```{r}
+#Grab the four item in the first vector in the list
+relateds[[1]][4]
+```
+
+We also need our artists in a vector too:
+
+```{r}
+artists <- spotifydata$name
+```
+
+
+## Looping through the list
+
+Now we need to loop through all those vectors and turn them into a single vector which *mirrors* another vector of the artists they are connected to.
+
+Here's a basic loop:
+
+```{r}
+for (i in 1:20){
+  print(i)
+  }
+```
+
+The loop we're going to write looks like this:
+
+```{r}
+#create an empty vector to store the artists
+col1 <- c()
+#create another to store the relateds
+col2 <- c()
+#run the loop 305 times
+for (artist in 1:305){
+  #within each of those 305 times, run another loop 20 times
+ for (related in 01:20){
+  #if you want to see what's happening, uncomment this:
+   #print(paste(artists[artist],":", relateds[[artist]][related]))
+   #add the artist to the col1 vector. The same artist will be added 20 times for each time a related artist is grabbed
+  col1 <- c(col1,artists[artist])
+  #add the related to the col2 vector
+  col2 <- c(col2,relateds[[artist]][related])
+ }
+}
+```
+
+It turns out there are some examples of artists being referred to in different ways in different places (e.g. Klaxons vs The Klaxons), so it's better to use the artist IDs instead.
+
+This code then is the same as above, but uses id codes instead of names. It also doesn't bother with creating a vector or list to store those names - instead strings are split within the code. As a result this takes longer to run, and so it is more efficient to create them separately as before:
+
+```{r}
+col1b <- c()
+col2b <- c()
+for (artist in 1:305){
+ for (related in 01:20){
+  #print(paste(artists[artist],":", relateds[[artist]][related]))
+  col1b <- c(col1b,spotifydata$artistid[artist])
+  col2b <- c(col2b,strsplit(spotifydata$relatedartistsid,",")[[artist]][related])
+ }
+}
+```
+
+Then to save:
+
+```{r}
+relationshipids <- data.frame(col1b,col2b)
+write.csv(relationshipids,"relationshipids.csv")
+```
+
+## Creating a lookup table
+
+We can adapt the process above to create a lookup table of all the ID codes too:
+
+```{r}
+relateds <- strsplit(spotifydata$relatedartists,",")
+relatedids <- strsplit(spotifydata$relatedartistsid,",")
+relatedpops <- strsplit(spotifydata$relatedartistspop,",")
+colid <- c()
+colname <- c()
+colpop <- c()
+for (artist in 1:305){
+ for (related in 01:20){
+  #print(paste(artists[artist],":", relateds[[artist]][related]))
+   colid <- c(colid,relatedids[[artist]][related])
+   colname <- c(colname,relateds[[artist]][related])
+   colpop <- c(colpop,relatedpops[[artist]][related])
+ }
+}
+# Now to save as a data fram
+artistidlookup <- data.frame(colid,colname,colpop)
+write.csv(artistidlookup,"artistidlookup.csv")
+```
+
+
+
