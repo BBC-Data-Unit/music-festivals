@@ -1,0 +1,305 @@
+album rock,blues-rock,british blues,classic rock,electric blues,hard rock,rock
+album rock,classic rock,hard rock,heavy christmas,rock
+dance rock,new romantic,new wave,new wave pop,permanent wave,power pop,synthpop
+dance pop,pop
+album rock,alternative rock,classic rock,hard rock,mellow gold,rock
+indie pop,indie rock
+dance rock,new romantic,new wave,new wave pop,synthpop
+alternative dance,alternative rock,anti-folk,chamber pop,chillwave,dance-punk,dream pop,escape room,experimental rock,folk-pop,freak folk,indie folk,indie pop,indie r&b,indie rock,indietronica,lo-fi,neo-psychedelic,new rave,noise pop,noise rock,nu gaze,post rock,shimmer pop,synthpop
+chamber pop,dark cabaret,folk-pop,freak folk,indie folk,indie pop,melancholia,singer-songwriter
+alternative dance,alternative rock,canadian indie,canadian pop,chamber pop,dance-punk,folk-pop,garage rock,indie folk,indie pop,indie rock,indietronica,neo-psychedelic,new rave,permanent wave,rock,stomp and holler
+garage rock,indie rock,permanent wave,sheffield indie
+alternative rock,britpop,garage rock,indie rock,madchester,pop rock
+alternative metal,alternative rock,funk rock,hard rock,nu metal,permanent wave,post-grunge,rock
+alternative metal,nu metal,pop punk,post-grunge,rock
+big room,dance pop,edm,electro house,pop,tropical house
+bmore,dance pop,escape room,hip house,hip pop,indie r&b,pop
+alternative rock,anti-folk,britpop,chamber pop,folk-pop,indie folk,indie pop,indie rock,lo-fi,madchester,melancholia,neo-psychedelic,pop rock
+alternative dance,big beat,disco house,electronic,house,new rave,trip hop,tropical house,uk garage,vocal house
+metropopolis,pop,tropical house
+alternative dance,chamber pop,chamber psych,dream pop,etherpop,folk-pop,indie pop,indie r&b,indietronica,metropopolis,new rave,pop,synthpop,trip hop
+alternative dance,alternative rock,chamber pop,chillwave,dream pop,folk-pop,freak folk,indie folk,indie pop,indie r&b,indie rock,indietronica,lo-fi,neo-psychedelic,new rave,noise pop,shimmer pop,stomp and holler,synthpop
+alternative rock,classic rock,east coast hip hop,electronic,funk rock,gangster rap,hip hop,old school hip hop,rap,rock
+albuquerque indie,chamber pop,folk-pop,freak folk,indie folk,indie pop,indie rock,stomp and holler
+alternative rock,anti-folk,britpop,chamber pop,folk rock,folk-pop,indie folk,indie pop,indie rock,lo-fi,melancholia,neo-psychedelic,new wave,pop rock,scottish rock,singer-songwriter,slow core,stomp and holler,swedish indie rock,twee pop
+british folk,folk christmas,traditional british folk
+chamber pop,fingerstyle,folk-pop,indie anthem-folk,indie folk,neo mellow,singer-songwriter,stomp and holler
+dance pop,pop,pop rap,post-teen pop,r&b
+garage rock,indie rock,rock,scottish rock
+celtic rock,dance rock,madchester,new romantic,new wave,new wave pop,scottish rock,synthpop
+album rock,classic rock,dance rock,glam metal,hard rock,heavy christmas,mellow gold,new romantic,new wave,new wave pop,rock,soft rock,synthpop
+album rock,classic funk rock,dance pop,dance rock,disco,europop,mellow gold,motown,new romantic,new wave,new wave pop,quiet storm,soft rock
+album rock,alternative rock,art rock,classic rock,hard rock,metal,rock,stoner rock
+dancehall,dub,lovers rock,reggae,reggae fusion,roots reggae
+heavy christmas,pop punk,punk,punk christmas
+alternative dance,alternative rock,dance-punk,electronic,garage rock,indie pop,indie rock,indietronica,new rave,rock,synthpop
+album rock,candy pop,classic rock,dance pop,dance rock,mellow gold,new romantic,new wave,new wave pop,permanent wave,pop rock,power pop,punk,rock,soft rock,synthpop
+alternative rock,britpop,classic rock,dance rock,electronic,funk rock,garage rock,indie rock,neo-psychedelic,new wave,permanent wave,pop rock,rock
+alt-indie rock,alternative dance,british indie rock,folk-pop,garage rock,indie folk,indie pop,indie rock,indietronica,new rave,shimmer pop,stomp and holler,synthpop
+chamber pop,folk-pop,indie folk,indie pop,indie rock,melancholia,neo mellow,slow core,stomp and holler
+album rock,glam metal,hard rock,heavy christmas,rock
+dance rock,new romantic,new wave,new wave pop,soul christmas,synthpop
+classic rock,mellow gold,permanent wave,pop christmas,rock,roots rock,singer-songwriter,soft rock
+dance pop,pop
+album rock,canadian pop,hard rock,mellow gold,rock,soft rock
+art rock,dance rock,glam rock,melancholia,mellow gold,new romantic,new wave,new wave pop,pub rock,soft rock,synthpop
+alternative country,folk christmas,folk-pop,indie christmas,indie folk,roots rock,singer-songwriter,slow core,stomp and holler
+dance pop,edm,electro house,house,pop,progressive house,tropical house
+british folk,celtic,irish folk
+permanent wave,pop,pop christmas
+alternative country,anti-folk,chamber pop,folk-pop,freak folk,indie folk,indie pop,indie rock,lo-fi,melancholia,new americana,pop rock,roots rock,singer-songwriter,slow core,stomp and holler
+alternative rock,neo mellow,pop rock,post-grunge,rock,singer-songwriter
+australian alternative rock,australian pop,dance rock,mellow gold,new romantic,new wave,new wave pop,permanent wave,pop rock,rock,soft rock
+chicago soul,classic funk rock,disco,funk,funk rock,jazz blues,jazz funk,memphis soul,motown,neo soul,soul,soul blues,southern soul,vocal jazz
+gangster rap,hardcore hip hop,hip hop,pop rap,rap,rap rock,west coast rap
+electro,electronic,filter house
+acoustic pop,folk christmas,folk-pop,indie christmas,indie folk,indie pop,irish rock,neo mellow,pop christmas,singer-songwriter
+britpop,downtempo
+adult standards,album rock,classic funk rock,classic rock,dance rock,disco,folk rock,hard rock,mellow gold,motown,new wave pop,rock,singer-songwriter,soft rock
+album rock,art rock,classic funk rock,classic rock,dance rock,glam rock,mellow gold,new wave,permanent wave,pop christmas,protopunk,rock,singer-songwriter,soft rock
+art rock,dance rock,fourth world,permanent wave,singer-songwriter
+acoustic pop,folk-pop,neo mellow,permanent wave,pop rock,singer-songwriter
+dance pop,edm,pop,tropical house
+big room,brostep,edm,electro house,progressive house
+album rock,classic rock,glam metal,hard rock,metal,rock
+dance rock,new romantic,new wave,new wave pop,permanent wave,synthpop
+bassline,disco house,grime,house,pop rap,rap,tropical house,uk garage
+canadian pop,hip hop,pop rap,rap
+album rock,art rock,dance pop,dance rock,mellow gold,new romantic,new wave,new wave pop,pop rock,rock,soft rock,synthpop
+alternative rock,art rock,britpop,dance rock,dream pop,indie rock,madchester,neo-psychedelic,new romantic,new wave,new wave pop,permanent wave,post-punk,power pop,punk,rock,synthpop,uk post-punk
+pop
+britpop,chamber pop,indie rock,madchester
+album rock,alternative rock,art rock,classic rock,dance rock,folk,folk rock,mellow gold,new wave,new wave pop,permanent wave,pop rock,power pop,pub rock,rock,roots rock,singer-songwriter,soft rock
+detroit hip hop,g funk,hip hop,pop rap,rap
+compositional ambient,focus,melancholia,post rock
+alternative metal,alternative rock,funk metal,funk rock,groove metal,grunge,hard rock,metal,nu metal,post-grunge,rap metal,rap rock,rock
+big beat,disco house,downtempo,electronic,hip house,trip hop
+big beat,disco house,electronic
+pop rap,rap
+alt-indie rock,alternative rock,big beat,britpop,chamber psych,dance rock,dream pop,electronic,indie rock,madchester,neo-psychedelic,new wave
+brostep,deep groove house,drum and bass,edm,electronic,grime,house,tropical house,uk garage
+chamber pop,folk-pop,freak folk,indie folk,indie pop,indie rock,new americana,singer-songwriter,stomp and holler
+album rock,british blues,classic rock,folk rock,hard rock,mellow gold,rock,singer-songwriter,soft rock
+folk-pop,indie pop,pop
+alternative dance,alternative rock,dance-punk,garage rock,indie pop,indie rock,indietronica,math pop,new rave,shimmer pop,synthpop
+alternative metal,alternative rock,funk rock,hard rock,permanent wave,pop rock,post-grunge,rock
+chamber pop,folk-pop,freak folk,indie folk,indie pop,indie rock,indietronica,neo-psychedelic,new americana,singer-songwriter,stomp and holler
+britpop,garage rock,indie rock,madchester,pop rock,rock,welsh rock
+
+alternative dance,alternative rock,dance-punk,garage rock,indie rock,new rave,rock
+alternative dance,chillwave,dance-punk,electronic,indie pop,indie rock,indietronica,new rave,nu disco,shimmer pop,synthpop
+british alternative rock,emo,metalcore,pop punk,post-hardcore,punk christmas,screamo
+alternative dance,alternative rock,britpop,dance pop,dance rock,electronic,lilith,new wave pop,permanent wave,pop rock,post-grunge,rock,synthpop
+disco,soul christmas
+alternative dance,chamber pop,electroclash,electronic,indie christmas,indietronica,new rave,new wave pop,pop christmas,pop rock,synthpop,trip hop
+
+art rock,dance rock,disco,electronic,new romantic,new wave,new wave pop,post-disco,synthpop
+alternative rock,anti-folk,britpop,chamber pop,chamber psych,dance-punk,dream pop,e6fi,folk-pop,freak folk,garage psych,indie folk,indie pop,indie rock,lo-fi,neo-psychedelic,noise pop,nu gaze,power pop,singer-songwriter,slow core,space rock,stomp and holler
+alternative rock,permanent wave,pop punk,pop rock,punk,rock
+alternative dance,alternative rock,brooklyn indie,chamber pop,chillwave,dream pop,folk-pop,freak folk,indie folk,indie pop,indie r&b,indie rock,indietronica,lo-fi,neo-psychedelic,new rave,new weird america,noise pop,shimmer pop,stomp and holler,synthpop
+acid jazz,alternative dance,big beat,disco house,electronic,new rave,nu jazz,nu skool breaks,trip hop,vocal house
+album rock,alternative rock,classic rock,glam metal,hard rock,rock
+alt-indie rock,alternative rock,big beat,britpop,dance rock,electronic,indie rock,madchester,neo-psychedelic,new romantic,new wave,new wave pop,post-punk,uk post-punk
+album rock,art rock,blues-rock,british blues,classic rock,experimental,experimental rock,hard rock,kraut rock,neo-psychedelic,progressive rock,protopunk,psychedelic rock,pub rock,rock,space rock,stoner rock,symphonic rock
+dance rock,new romantic,new wave,new wave pop
+alternative dance,chamber pop,chillwave,dance-punk,electronic,indie christmas,indie pop,indie r&b,indie rock,indietronica,new rave,synthpop
+alternative dance,alternative rock,dance-punk,garage rock,indie pop,indie rock,indietronica,new rave,new wave,pop rock,rock
+album rock,classic rock,hard rock,metal,nwobhm,rock
+album rock,art rock,blues-rock,classic rock,country rock,folk,folk christmas,folk rock,folk-pop,hard rock,lilith,mellow gold,piano rock,pop rock,rock,rock-and-roll,rockabilly,roots rock,singer-songwriter,soft rock,southern rock,traditional folk
+neo mellow,pop,pop rock,singer-songwriter,viral pop
+neo mellow,pop,pop rock
+acoustic pop,folk christmas,folk-pop,neo mellow,pop,pop christmas,pop rock,viral pop
+adult standards,neo mellow,pop christmas,vocal jazz
+electronic
+east coast hip hop,hip hop,pop rap,rap,southern hip hop,trap music
+chamber pop,folk-pop,freak folk,harp,indie folk,new weird america
+album rock,blues-rock,british blues,classic rock,electric blues,folk rock,mellow gold,rock,roots rock,singer-songwriter,soft rock
+boogie-woogie
+acoustic pop,alternative country,anti-folk,chamber pop,deep new americana,folk,folk-pop,indie folk,indie pop,neo mellow,new americana,pop rock,progressive bluegrass,roots rock,singer-songwriter,stomp and holler
+canadian pop,dance pop,pop,pop christmas,post-teen pop
+boy band,dance pop,pop,pop rap,post-teen pop,r&b
+alternative rock,britpop,dance-punk,garage rock,indie rock,new rave,rock
+pop,pop christmas,pop rap,rap
+alternative dance,alternative rock,electronic,garage rock,indie rock,new rave,rock
+norwegian pop,norwegian rock
+neo mellow,piano rock,pop,pop rock,rock
+dance pop,dance rock,eurodance,europop,new romantic,new wave,new wave pop,pop christmas,soft rock,soul christmas,synthpop
+
+alternative rock,garage rock,indie pop,indie rock,neo mellow,rock
+dance pop,indie r&b,neo soul,pop,pop rap,rap
+album rock,classic rock,glam metal,glam rock,hard rock,metal,rock
+dance-punk,new rave
+classic funk rock,disco,funk,funk rock,jazz funk,memphis soul,motown,post-disco,quiet storm,soul,soul christmas
+art rock,big beat,dance rock,electro,electronic,experimental,german techno,kraut rock,new romantic,new wave,post-punk,synthpop
+minimal dub,pop,tropical house
+alternative country,anti-folk,art rock,chamber pop,chamber psych,folk-pop,freak folk,indie folk,indie pop,indie rock,lo-fi,melancholia,new weird america,roots rock,singer-songwriter,slow core
+alternative dance,alternative rock,brooklyn indie,chamber pop,dance-punk,electronic,garage rock,indie folk,indie pop,indie rock,indietronica,neo-psychedelic,new rave,new wave,synthpop
+acid house,big beat,britpop,downtempo,downtempo fusion,electronic,hip house,madchester,trip hop
+alternative rock,classic rock,funk rock,hard rock,neo mellow,permanent wave,pop rock,rock,singer-songwriter
+art rock,dance rock,disco,mellow gold,new romantic,new wave,new wave pop,post-disco,soft rock,synthpop
+dance pop,europop,folk-pop,neo mellow,pop,pop rock,post-teen pop
+alternative metal,nu metal,post-grunge,rap metal
+alternative metal
+alternative country,anti-folk,country blues,country rock,folk,folk rock,folk-pop,lilith,mellow gold,new americana,outlaw country,roots rock,singer-songwriter,texas country,traditional folk
+dance pop,dance rock,disco house,europop,hip house,new romantic,new wave pop,vocal house
+alternative dance,dance pop,escape room,hip pop,indie r&b,new rave,pop
+indie rock,indietronica
+dance pop,edm,electro house,moombahton,pop,tropical house
+alternative rock,britpop,dance rock,electronic,garage rock,indie christmas,indie rock,madchester,new wave,new wave pop,permanent wave,pop rock,rock,welsh rock
+latin alternative,rock en espanol,world
+downtempo,electronic,nu jazz,trip hop
+alternative rock,art rock,britpop,chamber pop,chamber psych,dream pop,electronic,experimental,experimental rock,freak folk,garage rock,indie pop,indie rock,lo-fi,madchester,melancholia,neo-psychedelic,noise pop,post rock,post-punk,power pop,shoegaze,singer-songwriter,slow core,space rock,uk post-punk
+alternative metal,alternative rock,hard rock,metal,rock,speed metal,thrash metal
+dance rock,new romantic,new wave,new wave pop,synthpop
+downtempo,electronic
+alternative rock,blues-rock,folk-pop,garage rock,indie folk,indie pop,indie rock,lo-fi,neo-psychedelic,noise pop,pop rock,stomp and holler
+compositional ambient,electronic,post rock
+dance rock,indie rock,madchester,new romantic,new wave,permanent wave,pop rock,rock
+folk-pop,indie folk,indie pop,neo mellow,singer-songwriter,stomp and holler
+alternative rock,indie rock,permanent wave,piano rock,post-grunge,rock
+emo,pop punk,punk christmas,screamo
+disco house,electronic
+dirty south rap,east coast hip hop,gangster rap,hardcore hip hop,hip hop,pop rap,rap,southern hip hop
+album rock,blues-rock,classic rock,mellow gold,permanent wave,protopunk,psychedelic rock,rock,roots rock,singer-songwriter,soft rock
+alternative dance,alternative rock,britpop,dance rock,electronic,indie rock,madchester,new romantic,new wave,new wave pop,permanent wave,post-punk,rock,synthpop,uk post-punk
+indie anthem-folk,neo mellow,pop rock
+alternative rock,art rock,chamber pop,garage rock,new wave,permanent wave,singer-songwriter
+dance pop,hip pop,pop,pop rap
+alt-indie rock,britpop,garage rock,indie rock,madchester,rock
+
+alternative rock,britpop,indie rock,neo mellow,permanent wave,pop rock,rock
+art rock,dance rock,madchester,new romantic,new wave,new wave pop,permanent wave,post-punk,synthpop,uk post-punk
+acoustic pop,folk-pop,neo mellow,pop,pop rock
+album rock,art rock,classic rock,folk rock,mellow gold,pop christmas,rock,roots rock,singer-songwriter,soft rock
+album rock,brill building pop,classic rock,folk,folk christmas,folk rock,folk-pop,mellow gold,neo mellow,permanent wave,pop rock,rock,roots rock,singer-songwriter,soft rock,soul,traditional folk
+art rock,britpop,dance rock,madchester,neo mellow,new wave pop,rock
+album rock,alternative metal,alternative rock,classic rock,funk rock,grunge,hard rock,nu metal,permanent wave,pop rock,post-grunge,rock
+dance pop,dance rock,electronic,europop,new romantic,new wave,new wave pop,permanent wave,synthpop
+album rock,art rock,dance rock,mellow gold,new romantic,new wave,permanent wave,progressive rock,rock,singer-songwriter,soft rock,symphonic rock
+
+alternative rock,blues-rock,boston rock,classic rock,dance rock,dance-punk,funk rock,garage rock,indie pop,indie rock,lo-fi,neo-psychedelic,new wave,noise pop,permanent wave,pop rock,rock
+
+alternative rock,electronic,laboratorio,trip hop
+alt-indie rock,alternative dance,alternative rock,big beat,britpop,classic rock,dance rock,dance-punk,dream pop,electronic,funk rock,garage rock,indie rock,madchester,neo-psychedelic,new rave,new wave,rock,space rock,trip hop
+alternative rock,art rock,dance rock,dream pop,madchester,new romantic,new wave,new wave pop,post-punk,power pop,punk,synthpop,uk post-punk
+alternative rock,britpop,dance rock,electronic,garage rock,indie rock,madchester,new wave,new wave pop,permanent wave,rock,sheffield indie
+album rock,classic rock,glam rock,hard rock,heavy christmas,rock
+alternative metal,alternative rock,blues-rock,funk rock,garage rock,indie rock,neo-psychedelic,nu metal,post-grunge,rock,stoner metal,stoner rock
+alternative rock,indie rock,melancholia,permanent wave,rock
+alternative metal,alternative rock,blues-rock,funk metal,funk rock,garage rock,nu metal,post-grunge,rap metal,rap rock,rock
+alternative metal,german metal,industrial,industrial metal,industrial rock,neue deutsche harte,nu metal
+britpop,garage rock,indie rock,madchester,neo mellow,pop rock,rock
+alternative rock,funk metal,funk rock,permanent wave,pop rock,rock
+album rock,alternative rock,classic rock,dance rock,folk christmas,hard rock,indie rock,mellow gold,neo mellow,new wave,permanent wave,pop christmas,pop rock,rock,singer-songwriter
+britpop,madchester,rock
+dance pop,pop,pop christmas,r&b,soul christmas,urban contemporary
+album rock,art rock,blues-rock,british blues,classic rock,electric blues,folk rock,hard rock,mellow gold,progressive rock,rock,roots rock,singer-songwriter,soft rock,symphonic rock
+adult standards,album rock,art rock,classic rock,folk christmas,folk rock,hard rock,mellow gold,rock,singer-songwriter,soft rock
+album rock,art rock,mellow gold,progressive rock,soft rock,symphonic rock
+album rock,art rock,classic rock,dance rock,glam rock,melancholia,mellow gold,new romantic,new wave,new wave pop,post-punk,protopunk,rock,singer-songwriter,soft rock,synthpop,uk post-punk
+edm,house,liquid funk,pop,tropical house,uk funky
+east coast hip hop,hardcore hip hop,hip hop,old school hip hop,pop rap,rap
+alternative country,folk-pop,indie folk,indie pop,neo mellow,new americana,pop rock,roots rock,singer-songwriter,stomp and holler
+alternative dance,dance pop,disco house,europop,pop,pop rock,synthpop
+dance pop,europop,grime,neo mellow,pop,pop rock
+soft rock
+acoustic blues,blues,blues-rock,country blues,delta blues,electric blues,garage rock,modern blues,punk blues,texas blues,traditional blues
+candy pop,dance rock,europop,new romantic,new wave pop
+bow pop,chamber pop,compositional ambient,dream pop,ethereal wave,icelandic pop,indie folk,melancholia,post rock
+art rock,dance rock,mellow gold,new romantic,new wave,new wave pop,rock,soft rock,synthpop
+folk,folk-pop,lilith,new wave pop,pop christmas,pop rock,singer-songwriter
+grime,hip hop,house,pop rap,rap
+pop rock
+alternative metal,nu metal,post-grunge,rap metal,rap rock,rock
+brill building pop,chicago soul,classic funk rock,classic rock,disco,folk rock,funk,funk rock,jazz blues,mellow gold,memphis soul,motown,psychedelic rock,rock,roots rock,singer-songwriter,soul,soul blues,southern soul
+g funk,gangster rap,hip hop,pop christmas,pop rap,rap,southern hip hop,west coast rap
+indie christmas,irish rock,neo mellow,permanent wave,pop,pop christmas,pop rock,rock
+classic funk rock,disco,funk,hip house,new jack swing,post-disco,quiet storm,urban contemporary
+art rock,britpop,dance rock,indie christmas,jangle pop,madchester,new romantic,new wave,new wave pop,power pop,pub rock,rock
+alternative dance,alternative rock,anti-folk,chamber pop,chillwave,dream pop,escape room,etherpop,folk-pop,freak folk,indie folk,indie pop,indie r&b,indie rock,indietronica,lo-fi,metropopolis,neo-psychedelic,new rave,noise pop,pop,pop rock,shimmer pop,singer-songwriter,synthpop
+album rock,blues-rock,british blues,classic rock,glam rock,hard rock,heavy christmas,mellow gold,rock,soft rock,southern rock
+alternative rock,britpop,electronic,garage rock,indie rock,neo mellow,pop rock,rock,welsh rock
+alternative country,country rock,folk,folk rock,mellow gold,new americana,outlaw country,rock,roots rock,singer-songwriter,southern rock,texas country,traditional country,traditional folk
+classic funk rock,funk,funk rock,motown,quiet storm,soul,soul christmas
+alternative rock,britpop,dance rock,indie rock,madchester,new wave,new wave pop,rock
+alternative rock,chamber pop,folk christmas,folk-pop,freak folk,indie christmas,indie folk,indie pop,indie rock,neo mellow,neo-psychedelic,pop christmas,singer-songwriter,stomp and holler
+bubblegum dance,dance pop,europop,pop,pop christmas,pop rock,post-teen pop,r&b,tropical house,uk garage
+alternative rock,big beat,britpop,chamber psych,electronic,madchester,neo-psychedelic,space rock,welsh rock
+anti-folk,art rock,folk,folk-pop,lilith,mellow gold,new wave pop,permanent wave,pop rock,singer-songwriter
+alternative metal,alternative rock,funk rock,nu metal,post-grunge,rock
+album rock,art rock,blues-rock,british blues,britpop,classic rock,dance rock,folk rock,garage rock,glam rock,hard rock,heavy christmas,new wave,protopunk,psychedelic rock,punk,rock,singer-songwriter
+australian alternative rock,indie pop,indie rock,indietronica,neo-psychedelic,psychedelic rock
+britpop,dance pop,dance rock,europop,lilith,neo mellow,new romantic,new wave pop,pop rock,scottish rock
+nu gaze,pop,shiver pop
+art rock,dance rock,new romantic,new wave,new wave pop,permanent wave,pop rock,post-punk,power pop,rock,synthpop,zolo
+album rock,alternative rock,blues-rock,classic rock,electric blues,funk rock,hard rock,jam band,mellow gold,modern blues,pop rock,post-grunge,rock,roots rock,singer-songwriter,southern rock
+dance pop,pop,pop rap,post-teen pop
+alternative rock,blues-rock,classic rock,garage rock,indie pop,indie rock,modern blues,punk blues,rock
+dance rock,new romantic,new wave,new wave pop,power pop,pub rock,punk
+dance rock,new romantic,new wave,new wave pop,synthpop
+alternative rock,art rock,dance rock,new romantic,new wave,permanent wave,pop rock,rock
+album rock,comic,glam metal,hard rock,heavy christmas,metal,rock
+
+alternative rock,anti-folk,blues-rock,chamber pop,dance-punk,dream pop,experimental rock,folk-pop,freak folk,garage rock,indie christmas,indie folk,indie pop,indie rock,indietronica,lo-fi,neo-psychedelic,new rave,new wave,noise pop,ok indie,psychedelic rock,rock,singer-songwriter,slow core,space rock
+britpop
+flamenco,rumba,world,world christmas
+art rock,dance pop,dance rock,disco,europop,madchester,new romantic,new wave,new wave pop,permanent wave,post-punk,soft rock,synthpop
+alt-indie rock
+alternative rock,garage rock,indie christmas,indie pop,indie rock,permanent wave,pop christmas,pop rock,rock,vegas indie
+britpop,celtic rock,madchester
+alt-indie rock,alternative rock,britpop,dance-punk,funk rock,garage rock,indie rock,madchester,new rave,rock
+alt-indie rock,alternative dance,british indie rock,britpop,dance-punk,garage rock,indie folk,indie rock,indietronica,new rave,shimmer pop
+alternative rock,chamber pop,folk-pop,freak folk,garage rock,indie folk,indie pop,indie rock,indietronica,lo-fi,neo-psychedelic,singer-songwriter,stomp and holler
+alternative metal,alternative rock,permanent wave,pop punk,pop rock,post-grunge,punk,rock,skate punk
+alt-indie rock,britpop,dance-punk,garage rock,indie rock,madchester,new rave,sheffield indie
+adult standards,album rock,classic funk rock,dance pop,dance rock,disco,europop,funk,mellow gold,motown,new romantic,new wave,new wave pop,post-disco,quiet storm,soft rock,soul,soul christmas
+album rock,art rock,classic rock,dance rock,hard rock,mellow gold,new romantic,new wave,new wave pop,permanent wave,rock,soft rock
+album rock,art rock,classic rock,dance rock,folk christmas,lilith,mellow gold,new romantic,new wave,new wave pop,permanent wave,pop rock,power pop,rock,roots rock,singer-songwriter,soft rock,synthpop
+big beat,breakbeat,electronic,hardcore techno
+album rock,british invasion,classic rock,folk rock,hard rock,mellow gold,protopunk,rock,singer-songwriter
+alternative rock,classic rock,dance rock,garage rock,hard rock,punk,rock
+alternative metal,alternative rock,blues-rock,funk rock,garage rock,grunge,indie rock,nu metal,permanent wave,pop christmas,pop rock,post-grunge,rock
+alternative rock,dance rock,indie rock,new wave,permanent wave,rock,uk post-punk
+alt-indie rock,alternative rock,britpop,classic rock,dance rock,electronic,funk rock,garage rock,indie rock,madchester,new wave,rock
+electronic,grime,indie rock,new rave,uk garage
+alternative rock,garage rock,indie pop,indie rock,permanent wave,rock
+dance-punk,garage rock,indie rock,new rave
+alt-indie rock,britpop,garage rock,indie pop,indie rock,indietronica
+alternative rock,britpop,electronic,garage rock,indie rock,madchester,neo mellow,neo-psychedelic,new wave,permanent wave,pop rock,rock
+alternative rock,chamber pop,chillwave,dream pop,folk-pop,freak folk,indie folk,indie pop,indie rock,indietronica,neo-psychedelic,noise pop,roots rock,singer-songwriter,stomp and holler
+canadian pop,pop,rap
+alternative rock,blues-rock,classic rock,garage rock,indie rock,permanent wave,punk blues,rock
+album rock,art rock,blues-rock,british invasion,classic rock,folk rock,hard rock,mellow gold,protopunk,rock,roots rock,singer-songwriter,soft rock
+alt-indie rock,alternative dance,garage rock,indie christmas,indie pop,indie rock,indietronica,new rave
+garage rock,indie rock,madchester
+album rock,dance rock,disco,mellow gold,new romantic,new wave,new wave pop,rock,soft rock,synthpop
+
+album rock,alternative rock,blues-rock,classic rock,folk rock,hard rock,mellow gold,pop rock,psychedelic rock,rock,roots rock,singer-songwriter,soft rock,southern rock
+
+
+britpop,indie christmas,indie rock,madchester,neo mellow,pop christmas,pop rock,rock
+alternative dance,indie pop,indie rock,indietronica,irish rock,new rave,pop
+irish rock,permanent wave,rock
+reggae fusion
+alternative dance,alternative rock,brooklyn indie,folk-pop,garage rock,indie folk,indie pop,indie rock,indietronica,neo-psychedelic,new rave,stomp and holler,synthpop
+album rock,blues-rock,classic rock,folk,folk rock,mellow gold,rock,roots rock,singer-songwriter,soft rock,soul
+bebop,canterbury scene,classic funk rock,contemporary jazz,contemporary post-bop,cool jazz,hard bop,jazz,jazz funk,jazz fusion,progressive rock,soul jazz
+alternative country,alternative rock,chamber pop,chicago indie,folk rock,folk-pop,freak folk,garage rock,indie folk,indie pop,indie rock,lo-fi,neo-psychedelic,new americana,pop rock,rock,roots rock,singer-songwriter,slow core,stomp and holler
+alt-indie rock,alternative dance,chamber pop,chamber psych,chillwave,dance-punk,dream pop,indie pop,indie r&b,indie rock,indietronica,leeds indie,new rave,nu gaze,shimmer pop,synthpop
+dance pop,europop,neo mellow,new wave pop,pop
+alternative rock,anti-folk,art rock,chamber pop,dance rock,dance-punk,dream pop,experimental rock,folk-pop,freak folk,garage psych,garage rock,indie folk,indie pop,indie rock,indietronica,lo-fi,neo-psychedelic,new wave,noise pop,noise rock,nu gaze,permanent wave,post rock,post-punk,power pop,roots rock,shoegaze,singer-songwriter,slow core,space rock,stomp and holler,uk post-punk
+mande pop,mbalax,world
+alternative hip hop,east coast hip hop,gangster rap,hardcore hip hop,hip hop,pop rap,rap,southern hip hop
+classic funk rock,disco,disco house,funk,funk rock,motown,post-disco,quiet storm,soul,vocal house
+dirty south rap,hip hop,pop rap,rap,southern hip hop
+alternative dance,big beat,breakbeat,disco house,electronic,new rave,trip hop
+alternative dance,big beat,disco house,electronic,intelligent dance music,madchester,new rave,trip hop
+dance pop,escape room,hip hop,hip pop,pop,pop rap,r&b,rap,southern hip hop,urban contemporary
+alternative rock,art rock,britpop,chamber pop,dance rock,dance-punk,dream pop,electronic,experimental,experimental rock,freak folk,garage psych,indie pop,indie rock,indietronica,lo-fi,neo-psychedelic,new wave,no wave,noise pop,noise rock,nu gaze,post rock,post-hardcore,psychedelic rock,shoegaze,singer-songwriter,slow core,space rock,uk post-punk
+alternative dance,downtempo,dream pop,indietronica,synthpop
+album rock,classic rock,folk christmas,glam rock,mellow gold,piano rock,rock,singer-songwriter,soft rock
+alt-indie rock,britpop,garage rock,grime,indie rock,new rave
+alternative rock,anti-folk,classic rock,electronic,folk christmas,funk rock,garage rock,indie christmas,indie pop,indie rock,neo-psychedelic,permanent wave,pop rock,rock,singer-songwriter
+dance pop,pop,r&b,soul
+australian dance,brostep,catstep,drum and bass,edm,electronic
+alternative dance,chamber pop,electronic,icelandic pop,metropopolis,permanent wave,pop rock,synthpop,trip hop
