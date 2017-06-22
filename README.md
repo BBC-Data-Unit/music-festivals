@@ -5,7 +5,11 @@
 In June 2017 we [published an analysis of music festival data](http://www.bbc.co.uk/news/uk-england-40273193) which highlighted the scarcity of female headliners, the dominance of 20 acts which make up a quarter of all headline slots, how Glastonbury headliners are getting older, and the rise of pop and hip hop and decline of electronic and rock.
 
 BBC England's data unit analysed more than 600 separate headline performances across 14 UK festivals. They were: Download, Reading/Leeds, T in the Park, V Festival, Isle of Wight, Bestival, Latitude, Wireless, Rewind, End of the Road, Cornbury, Boardmasters and Lovebox.
+
 Festivals that were not defined around headline acts were excluded. These include Creamfields, Boomtown Fair and Womad. Fairport's Cropredy Convention was also excluded as it is traditionally headlined by its organisers.
+
+We selected festivals using Festival Insights, a publication that runs the UK Festival Awards and publishes a list of the top 250 music festivals in Europe. The Spotify API was used to obtain data on genre, popularity, and related artists, and data compilation and analysis was done with both Python and R.
+
 
 ## Get the data
 
