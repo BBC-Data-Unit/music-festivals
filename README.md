@@ -9,8 +9,11 @@ Festivals that were not defined around headline acts were excluded. These includ
 
 ## Get the data
 
+* [CSV: Headliner IDs, names, related artists, top tracks, popularity, from Spotify API](https://github.com/BBC-Data-Unit/music-festivals/blob/master/spotifydata.csv)
+* [CSV: Headliners by festival with Spotify genres](https://github.com/BBC-Data-Unit/music-festivals/blob/master/spotifygenres_x_appearances.csv)
 * [CSV: Genre frequency count](https://raw.githubusercontent.com/BBC-Data-Unit/music-festivals/master/genrecount.csv)
-* Spotify IDs for festival headliners
+* [CSV: Relationships between artists](https://raw.githubusercontent.com/BBC-Data-Unit/music-festivals/master/relationships_between_artists.csv) - includes non-headliners
+* [Spotify IDs and names for festival headliners and related artists](https://github.com/BBC-Data-Unit/music-festivals/blob/master/artistidlookup.csv) - related artists include non-headliners
 
 ## Visualisation
 
@@ -31,4 +34,6 @@ Festivals that were not defined around headline acts were excluded. These includ
 * [How to do the same thing using a scraper in R](https://github.com/BBC-Data-Unit/music-festivals/blob/master/using_spotify_api.Rmd)
 * [Analysing genre using R](https://github.com/BBC-Data-Unit/music-festivals/blob/master/analysingSpotifyGenre.Rmd)
 * [Creating data on related artists for a network analysis in R](https://github.com/BBC-Data-Unit/music-festivals/blob/master/SpotifyNetworkAnalysis.Rmd)
+* [R script for converting list column into popularity lookup table](https://github.com/BBC-Data-Unit/music-festivals/blob/master/createlookup.R)
+* [R script for converting table into data that can be used for network analysis](https://github.com/BBC-Data-Unit/music-festivals/blob/master/createnetworktable.R)
 * All these scripts can be used as part of the [R project](https://github.com/BBC-Data-Unit/music-festivals/blob/master/spotify.Rproj)
