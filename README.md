@@ -22,12 +22,15 @@ Likewise the network analysis shows that the Britpop cluster (centre right) feat
 
 ## Get the data
 
+![](https://raw.githubusercontent.com/BBC-Data-Unit/music-festivals/master/GENREanalysis.png)
+
 * [CSV: Headliners for each festival, including demographic data](https://github.com/BBC-Data-Unit/music-festivals/blob/master/festival_headliners.csv)
 * [Excel spreadsheet: headliner demographics summary tables](https://github.com/BBC-Data-Unit/music-festivals/blob/master/festivaldata-withcalcs.xlsx)
 * [CSV: Headliner IDs, names, related artists, top tracks, popularity, from Spotify API](https://github.com/BBC-Data-Unit/music-festivals/blob/master/spotifydata.csv)
 * [CSV: Headliners by festival with Spotify genres](https://github.com/BBC-Data-Unit/music-festivals/blob/master/appearance_plus_genres.csv)
 * [CSV: Genre frequency count](https://raw.githubusercontent.com/BBC-Data-Unit/music-festivals/master/genrecount.csv)
 * [CSV: Genre count times appearances](https://github.com/BBC-Data-Unit/music-festivals/blob/master/genrecount_x_appearances.csv)
+* [Excel spreadsheet: calculations in arriving at genre counts by decade](https://github.com/BBC-Data-Unit/music-festivals/blob/master/GENREanalysis.xlsx)
 * [CSV: Relationships between artists](https://raw.githubusercontent.com/BBC-Data-Unit/music-festivals/master/relationships_between_artists.csv) - includes non-headliners
 * [CSV: Relationships between artists - headliners only](https://github.com/BBC-Data-Unit/music-festivals/blob/master/relationships_headlinersonly.csv)
 * [Spotify IDs and names for festival headliners and related artists](https://github.com/BBC-Data-Unit/music-festivals/blob/master/artistidlookup.csv) - related artists include non-headliners
