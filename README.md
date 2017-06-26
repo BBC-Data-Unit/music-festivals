@@ -58,4 +58,6 @@ Likewise the network analysis shows that the Britpop cluster (centre right) feat
 
 ## Related stories
 
-The Times also did an analysis of data relating to music festivals in two articles and identified similar trends: [Four-fifths of acts booked at major festivals are male] and [Will we rock you? How UK festivals have changed their tune](https://www.thetimes.co.uk/edition/times2/will-we-rock-you-how-uk-festivals-have-changed-their-tune-jrpqnfkfp) explored gender and genre respctively. The sample was slightly different: 8 festivals over 10 years, and main stage acts (we looked at headliners at 14 festivals over 46 years).
+*The Times*'s Peter Yeung and Ella Wilks-Harper also did an analysis of data relating to music festivals in two articles and identified similar trends: [Four-fifths of acts booked at major festivals are male](https://www.thetimes.co.uk/edition/news/four-fifths-of-acts-booked-at-major-festivals-are-male-xdmrbfgtd?cn=bWVzc2FnZQ%3D%3D) and [Will we rock you? How UK festivals have changed their tune](https://www.thetimes.co.uk/edition/times2/will-we-rock-you-how-uk-festivals-have-changed-their-tune-jrpqnfkfp) explored gender and genre respctively. The sample was slightly different: 8 festivals over 10 years, and main stage acts (we looked at headliners at 14 festivals over 46 years).
+
+Back in 2010 Caroline Beavon analysed a range of data related to music festivals for her [Datamud project](https://datamud.wordpress.com/) while an MA student at Birmingham City University.
